@@ -1,0 +1,46 @@
+.footer {
+    background: #f9f8f6;
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+    }
+
+    &--social__icons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-phone {
+        align-items: center;
+        display: flex;
+        gap: 5px;
+    }
+
+    &-mail {
+        align-items: center;
+        display: flex;
+        gap: 5px;
+    }
+
+    @media screen and (max-width: 850px) {
+        &-row {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 25px;
+        }
+
+        &-contact {
+            text-align: center;
+        }
+
+        &-address {
+            text-align: center;
+        }
+
+        &-social {
+            text-align: center;
+        }
+    }
+}
